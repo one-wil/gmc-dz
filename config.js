@@ -3,13 +3,69 @@
 // ⚙️ ملف الإعدادات الرئيسي للمتجر
 // =============================================================================
 
-const STOREMASTER_LICENSE = {
-    storeId: "__STOREMASTER_STORE_ID__",
-    token: "__STOREMASTER_TOKEN__"
-};
-
 const STORE_CONFIG = {
-  "PRODUCTS": {},
+  "PRODUCTS": {
+    "1788599963311": {
+      "name": "Ensemble POLO",
+      "price": 3200,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "Black-olive Geen",
+        "Beige - Black"
+      ],
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "Black-olive Geen": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-Black-olive%20Geen-1788600163271-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        },
+        "Beige - Black": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-Beige%20-%20Black-1788600211915-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-09-05T09:19:23.311Z",
+      "image": "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-1788600002645-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg",
+      "updatedAt": "2026-09-05T09:21:54.750Z"
+    }
+  },
   "PRODUCT_ORDER": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
@@ -247,7 +303,7 @@ const STORE_CONFIG = {
   },
   "FREE_DELIVERY": {
     "desk": {
-      "enabled": false,
+      "enabled": true,
       "minAmount": 0,
       "wilayas": [],
       "minQuantity": 1
@@ -261,7 +317,8 @@ const STORE_CONFIG = {
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607
+      1765145814607,
+      1788599963311
     ]
   },
   "DISCOUNTS": {
@@ -277,7 +334,7 @@ const STORE_CONFIG = {
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": "",
+    "name": "GMC-dz",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "",
@@ -1234,7 +1291,10 @@ const STORE_CONFIG = {
     "مسك",
     "عنبر"
   ],
-  "ORDERS": []
+  "ORDERS": [],
+  "STORE_ID": "bd78a486-468c-4ce3-9062-415846f943b4",
+  "STORE_TOKEN_HINT": "96a7154f59",
+  "LICENSE_SERVER": "https://storemaster-worker.vivavoir150.workers.dev"
 };
 
 // =============================================================================

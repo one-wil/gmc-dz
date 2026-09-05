@@ -1,5 +1,66 @@
 {
-  "PRODUCTS": {},
+  "PRODUCTS": {
+    "1788599963311": {
+      "name": "Ensemble POLO",
+      "price": 3200,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "Black-olive Geen",
+        "Beige - Black"
+      ],
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "Black-olive Geen": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-Black-olive%20Geen-1788600163271-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        },
+        "Beige - Black": {
+          "images": [
+            "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-Beige%20-%20Black-1788600211915-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-09-05T09:19:23.311Z",
+      "image": "https://raw.githubusercontent.com/one-wil/gmc-dz/main/images/product-1788599963311-1788600002645-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg",
+      "updatedAt": "2026-09-05T09:21:54.750Z"
+    }
+  },
   "PRODUCT_ORDER": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
@@ -237,7 +298,7 @@
   },
   "FREE_DELIVERY": {
     "desk": {
-      "enabled": false,
+      "enabled": true,
       "minAmount": 0,
       "wilayas": [],
       "minQuantity": 1
@@ -251,7 +312,8 @@
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607
+      1765145814607,
+      1788599963311
     ]
   },
   "DISCOUNTS": {
